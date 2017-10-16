@@ -18,3 +18,12 @@ git add Another_File
 
 #06 Committing changes made to the index
 git commit -m "some_message"
+
+#07 Creating a repository on GitHub
+create repository on github then type :
+git remote add origin https://github.com/user_name/Mytest.git
+
+#08 Pushing files in local repository to GitHub repository
+git push origin master
+
+
