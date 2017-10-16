@@ -1,0 +1,20 @@
+#01 Install Git
+sudo apt-get install git
+
+#02 Configuring GitHub
+git config --global user.name "user_name"
+git config --global user.email "email_id"
+
+#03 Creating a local repository
+git init Mytest
+cd Mytest
+
+#04 Creating a README file to describe the repository
+gedit README
+
+#05 Adding repository files to an index
+git add README
+git add Another_File
+
+#06 Committing changes made to the index
+git commit -m "some_message"
